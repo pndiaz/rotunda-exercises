@@ -1,0 +1,23 @@
+{
+  "name": "zoo",
+  "version": "1.0.0",
+  "description": "Zoo excercise",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pndiaz/rotunda-exercises.git"
+  },
+  "keywords": [
+    "zoo"
+  ],
+  "author": "pndiaz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pndiaz/rotunda-exercises/issues"
+  },
+  "homepage": "https://github.com/pndiaz/rotunda-exercises#readme"
+}
