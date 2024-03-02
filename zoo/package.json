@@ -4,8 +4,11 @@
   "description": "Zoo excercise",
   "main": "index.js",
   "scripts": {
-    "test": "test",
+    "test": "jest",
     "start": "node src/index.js"
+  },
+  "jest": {
+    "testEnvironment": "node"
   },
   "repository": {
     "type": "git",
@@ -19,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/pndiaz/rotunda-exercises/issues"
   },
-  "homepage": "https://github.com/pndiaz/rotunda-exercises#readme"
+  "homepage": "https://github.com/pndiaz/rotunda-exercises#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
 }
