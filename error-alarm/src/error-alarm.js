@@ -13,7 +13,7 @@ class ErrorLogger {
     async checkErrorFrecuency() {
 
         // Read errors from file
-        // Ideally get the last 10 errors to avoid read the entire file. We need a DB for that.
+        // Ideally get the last 10 errors to avoid read the entire file. We need some other structure for that.
         const errors = []
         const currentTimestamp = Date.now();
 
