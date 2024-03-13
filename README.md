@@ -38,3 +38,7 @@ version: 6,
 }
 
 Please implement a solution to this problem in JavaScript (or your programming language of choice, if applying for a DevOps position) with attention to code structure and readability. Feel free to use low-level libraries like Lodash.
+
+## How to run
+
+- Inside each excercise folder use `npm start`. (Except error-alarm since it's pseudocode)
